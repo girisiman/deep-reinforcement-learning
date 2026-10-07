@@ -1,0 +1,12 @@
+name: deep-rl-hw1
+channels:
+  - conda-forge
+dependencies:
+  - python=3.10
+  - pip
+  - pip:
+      - gymnasium
+      - pygame
+      - matplotlib
+      - imageio[ffmpeg]
+      - numpy==2.2.4
